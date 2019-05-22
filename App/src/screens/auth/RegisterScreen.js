@@ -436,7 +436,7 @@ class AcceptTerms extends Component {
         <View style={{ height: Dimensions.get('window').height * .85, width: '100%' }}>
           <Title>Termos de uso</Title>
           <WebView
-            source={{ uri: 'http://192.168.0.12:8000/termos' }}
+            source={{ uri: 'http://192.168.0.34:8003/termos' }} //tem que ser apontado para o end do meu servidor
             onLoadEnd={() => {
               this.setState({ webLoaded: true })
               this.forceUpdate();
