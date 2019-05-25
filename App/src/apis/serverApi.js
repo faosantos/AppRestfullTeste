@@ -8,7 +8,7 @@ const SERVER_URL = {
   thiago: "http://192.168.0.12:8000/api",
   advoga: "http://31.220.62.126:8000/api",
   club99: "http://31.220.59.226:8000/api",
-  fernando: "http://192.168.0.34:8003/api"
+  fernando: "http://192.168.1.6:8003/api"
 }['fernando'];
 
 async function requester(endpoint, params = null, method = 'GET') {
